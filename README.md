@@ -38,7 +38,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 - extension_dir (For instance, `/usr/local/lib/php/extensions/no-debug-non-zts-20160303`)
 - Scan this dir for additional .ini files (In this case, it's `/usr/local/etc/php/conf.d/`)
 
-2. Download IONCUBE
+2. Download IONCUBE.
 
 ```
 wget http://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz && tar xvfz ioncube_loaders_lin_x86-64.tar.gz && rm -rf ioncube_loaders_lin_x86-64.tar.gz
